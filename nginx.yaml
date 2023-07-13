@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.19.225
+- hosts: webservers
   tasks:
   - name:  nginx install
     apt: 
