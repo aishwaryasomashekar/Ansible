@@ -1,5 +1,5 @@
 ---
-- hosts: localhost
+- hosts: 172.31.19.225
   become: true
   tasks:
   - name:  nginx install
