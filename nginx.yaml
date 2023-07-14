@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.9.47
+- hosts: webservers
   become: true
   tasks:
   - name:  nginx install
